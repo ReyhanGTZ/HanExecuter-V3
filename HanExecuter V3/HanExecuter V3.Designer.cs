@@ -260,6 +260,7 @@ namespace HanExecuter_V3
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "HanExecuter";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "HanExecuter V3";
             this.Load += new System.EventHandler(this.HanExecuter_Load);
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.HanExecuter_MouseDown);

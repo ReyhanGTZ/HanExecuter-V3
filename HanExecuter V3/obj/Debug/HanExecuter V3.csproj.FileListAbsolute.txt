@@ -9,3 +9,4 @@ C:\Users\Reyhan\source\repos\HanExecuter V3\HanExecuter V3\obj\Debug\HanExecuter
 C:\Users\Reyhan\source\repos\HanExecuter V3\HanExecuter V3\bin\Debug\RobloxHacksAPI.dll
 C:\Users\Reyhan\source\repos\HanExecuter V3\HanExecuter V3\obj\Debug\HanExecuter_V3.HanExecuter.resources
 C:\Users\Reyhan\source\repos\HanExecuter V3\HanExecuter V3\obj\Debug\HanExecuter V3.csproj.CopyComplete
+C:\Users\Reyhan\source\repos\HanExecuter V3\HanExecuter V3\obj\Debug\HanExecuter V3.csprojAssemblyReference.cache
