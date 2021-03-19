@@ -46,6 +46,7 @@ namespace HanExecuter_V3
             this.button8 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -54,12 +55,11 @@ namespace HanExecuter_V3
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -191,8 +191,8 @@ namespace HanExecuter_V3
             this.richTextBox1.Size = new System.Drawing.Size(446, 390);
             this.richTextBox1.TabIndex = 2;
             this.richTextBox1.Text = "----- Made By ReyhanGTZ -----\n\n----- HanExecuter V3 -----\n\nPlease Go to Settings " +
-    "to choose the INJECTOR!!\n\n\nCredits : WeAreDevs API\n                EasyExploits " +
-    "API\n";
+    "to choose the INJECTOR!!\n\n\nCredits : WeAreDevs API\n               EasyExploits A" +
+    "PI\n               RobloxHacks API\n";
             // 
             // listBox1
             // 
@@ -268,11 +268,21 @@ namespace HanExecuter_V3
             this.panel4.Controls.Add(this.checkBox3);
             this.panel4.Controls.Add(this.checkBox2);
             this.panel4.Controls.Add(this.checkBox1);
-            this.panel4.Location = new System.Drawing.Point(151, 50);
+            this.panel4.Location = new System.Drawing.Point(150, 50);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(637, 391);
+            this.panel4.Size = new System.Drawing.Size(638, 391);
             this.panel4.TabIndex = 12;
             this.panel4.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(0, 188);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(356, 203);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 7;
+            this.pictureBox2.TabStop = false;
             // 
             // pictureBox5
             // 
@@ -299,13 +309,14 @@ namespace HanExecuter_V3
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Red;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label4.Location = new System.Drawing.Point(22, 23);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(403, 20);
+            this.label4.Size = new System.Drawing.Size(147, 20);
             this.label4.TabIndex = 3;
-            this.label4.Text = "Change Injector :       (You may choose only one!)";
+            this.label4.Text = "Change Injector :";
             // 
             // checkBox3
             // 
@@ -327,9 +338,9 @@ namespace HanExecuter_V3
             this.checkBox2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.checkBox2.Location = new System.Drawing.Point(22, 98);
             this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(212, 17);
+            this.checkBox2.Size = new System.Drawing.Size(129, 17);
             this.checkBox2.TabIndex = 1;
-            this.checkBox2.Text = "RobloxHacks API (Dont use this)";
+            this.checkBox2.Text = "RobloxHacks API ";
             this.checkBox2.UseVisualStyleBackColor = true;
             this.checkBox2.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
             // 
@@ -371,16 +382,6 @@ namespace HanExecuter_V3
             this.label6.TabIndex = 13;
             this.label6.Text = "<=== Settings";
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(0, 188);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(356, 203);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 7;
-            this.pictureBox2.TabStop = false;
-            // 
             // HanExecuter
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -412,8 +413,8 @@ namespace HanExecuter_V3
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

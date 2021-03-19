@@ -20,7 +20,7 @@ namespace HanExecuter_V3
 
         ExploitAPI api = new ExploitAPI(); //Wearedevs API
         
-        //RobloxHacksAPI.Module module = new RobloxHacksAPI.Module(); //RobloxHacksAPI
+        RobloxHacksAPI.Module module1 = new RobloxHacksAPI.Module(); //RobloxHacksAPI
         public HanExecuter()
         {
             InitializeComponent();
@@ -42,7 +42,7 @@ namespace HanExecuter_V3
             }
             if (checkBox2.Checked)
             {
-                //
+                module1.InjectDLL();
             }
             if (checkBox3.Checked)
             {
@@ -117,7 +117,7 @@ namespace HanExecuter_V3
             }   
             if (checkBox2.Checked)
             {
-                //module.Execute(richTextBox1.Text);
+                module1.Execute(richTextBox1.Text);
             }
             if (checkBox3.Checked)
             {
@@ -200,12 +200,30 @@ namespace HanExecuter_V3
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
-
+            if (checkBox1.Checked == true)
+            {
+                checkBox2.Checked = false;
+            }
+           
+            if (checkBox1.Checked == true)
+            {
+                checkBox3.Checked = false;
+            }
+           
         }
 
         private void checkBox2_CheckedChanged(object sender, EventArgs e)
         {
-
+            if (checkBox2.Checked == true)
+            {
+                checkBox1.Checked = false;
+            }
+           
+            if (checkBox2.Checked == true)
+            {
+                checkBox3.Checked = false;
+            }
+           
         }
 
         private void panel4_Paint(object sender, PaintEventArgs e)
@@ -215,7 +233,16 @@ namespace HanExecuter_V3
 
         private void checkBox3_CheckedChanged(object sender, EventArgs e)
         {
-
+            if (checkBox3.Checked == true)
+            {
+                checkBox2.Checked = false;
+            }
+           
+            if (checkBox3.Checked == true)
+            {
+                checkBox1.Checked = false;
+            }
+           
         }
 
         private void pictureBox5_Click(object sender, EventArgs e)
