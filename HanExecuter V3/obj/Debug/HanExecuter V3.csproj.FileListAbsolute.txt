@@ -10,3 +10,5 @@ C:\Users\Reyhan\source\repos\HanExecuter V3\HanExecuter V3\bin\Debug\RobloxHacks
 C:\Users\Reyhan\source\repos\HanExecuter V3\HanExecuter V3\obj\Debug\HanExecuter_V3.HanExecuter.resources
 C:\Users\Reyhan\source\repos\HanExecuter V3\HanExecuter V3\obj\Debug\HanExecuter V3.csproj.CopyComplete
 C:\Users\Reyhan\source\repos\HanExecuter V3\HanExecuter V3\obj\Debug\HanExecuter V3.csprojAssemblyReference.cache
+C:\Users\Reyhan\source\repos\HanExecuter V3\HanExecuter V3\bin\Debug\EasyExploits.dll
+C:\Users\Reyhan\source\repos\HanExecuter V3\HanExecuter V3\bin\Debug\WeAreDevs_API.dll
