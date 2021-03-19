@@ -26,6 +26,7 @@ namespace HanExecuter_V3
             InitializeComponent();
         }
         Point lastPoint;
+        //int r = 255, g = 0, b = 0;
 
         private void button5_Click(object sender, EventArgs e)
         {
@@ -48,6 +49,7 @@ namespace HanExecuter_V3
             {
                 module.LaunchExploit();
             }
+            
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -75,9 +77,13 @@ namespace HanExecuter_V3
             label5.Visible = false;
             panel4.Visible = false;
             pictureBox2.Visible = false;
+            label7.Visible = false;
+            checkBox4.Visible = false;
 
             //executer
             label6.Visible = true;
+
+            
         }
 
         private void HanExecuter_MouseDown(object sender, MouseEventArgs e)
@@ -123,7 +129,7 @@ namespace HanExecuter_V3
             {
                 module.ExecuteScript(richTextBox1.Text);
             }
-
+            
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -164,7 +170,7 @@ namespace HanExecuter_V3
 
         private void panel3_Paint(object sender, PaintEventArgs e)
         {
-            
+           
         }
 
         private void pictureBox1_Click_1(object sender, EventArgs e)
@@ -179,6 +185,8 @@ namespace HanExecuter_V3
             label5.Visible = true;
             panel4.Visible = true;
             pictureBox2.Visible = true;
+            label7.Visible = true;
+            checkBox4.Visible = true;
             //executer
             label1.Visible = false;
             button1.Visible = false;
@@ -260,6 +268,8 @@ namespace HanExecuter_V3
             label5.Visible = false;
             panel4.Visible = false;
             pictureBox2.Visible = false;
+            label7.Visible = false;
+            checkBox4.Visible = false;
             //executer
             label1.Visible = true;
             button1.Visible = true;
@@ -289,6 +299,8 @@ namespace HanExecuter_V3
             label5.Visible = false;
             panel4.Visible = false;
             pictureBox2.Visible = false;
+            label7.Visible = false;
+            checkBox4.Visible = false;
             //executer
             label1.Visible = true;
             button1.Visible = true;
@@ -306,6 +318,31 @@ namespace HanExecuter_V3
         private void label3_Click_1(object sender, EventArgs e)
         {
 
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            Random rand = new Random();
+            int A = rand.Next(0, 255);
+            int R = rand.Next(0, 255);
+            int G = rand.Next(0, 255);
+            int B = rand.Next(0, 255);
+            button7.ForeColor = Color.FromArgb(A, R, G, B);
+
+        }
+
+        private void checkBox4_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox4.Checked == true)
+            {
+                timer1.Start();
+                panel3.Visible = false;
+            }
+            else
+            {
+                timer1.Stop();
+                panel3.Visible = true;
+            }
         }
 
         private void label3_MouseDown(object sender, MouseEventArgs e)
