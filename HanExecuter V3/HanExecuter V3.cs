@@ -74,6 +74,7 @@ namespace HanExecuter_V3
             pictureBox5.Visible = false;
             label5.Visible = false;
             panel4.Visible = false;
+            pictureBox2.Visible = false;
 
             //executer
             label6.Visible = true;
@@ -177,6 +178,7 @@ namespace HanExecuter_V3
             pictureBox5.Visible = true;
             label5.Visible = true;
             panel4.Visible = true;
+            pictureBox2.Visible = true;
             //executer
             label1.Visible = false;
             button1.Visible = false;
@@ -230,6 +232,7 @@ namespace HanExecuter_V3
             pictureBox5.Visible = false;
             label5.Visible = false;
             panel4.Visible = false;
+            pictureBox2.Visible = false;
             //executer
             label1.Visible = true;
             button1.Visible = true;
@@ -258,6 +261,7 @@ namespace HanExecuter_V3
             pictureBox5.Visible = false;
             label5.Visible = false;
             panel4.Visible = false;
+            pictureBox2.Visible = false;
             //executer
             label1.Visible = true;
             button1.Visible = true;
