@@ -13,7 +13,7 @@
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application. Do not use the same AppId value in installers for other applications.
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
-AppId={{4753A5F5-53C8-4853-8E56-19558AFF01D3}
+AppId={{23768BBB-3286-4C38-A8C0-F1BA18ECEE21}
 AppName={#MyAppName}
 AppVersion={#MyAppVersion}
 ;AppVerName={#MyAppName} {#MyAppVersion}
@@ -26,7 +26,7 @@ ChangesAssociations=yes
 DisableProgramGroupPage=yes
 ; Uncomment the following line to run in non administrative install mode (install for current user only.)
 ;PrivilegesRequired=lowest
-OutputBaseFilename=HanExecuterV3_Setup
+OutputBaseFilename=HanExecuterV3
 SetupIconFile=C:\Users\Reyhan\Downloads\hnet.com-image.ico
 Compression=lzma
 SolidCompression=yes
